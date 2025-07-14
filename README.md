@@ -17,7 +17,7 @@ A web-based converter for FreeForm Workspace (.cly) files to STL format for 3D p
 ### **Recently Completed:**
 - **Comprehensive File Analysis**: analysis output with magic numbers, ASCII strings, and chunk patterns
 - **Enhanced Parser Architecture**: Multiple mesh extraction strategies with fallback methods
-- **FreeStyle Format Support**: Handles "FreeStyle Workspace (FWP)" format (not standard CLY)
+- **FreeStyle Format Support**: Handles "FreeStyle Workspace (FWP)" format (non standard CLY)
 - **Real Mesh Extraction**: Successfully extracts actual vertices and faces from .cly files
 - **Critical Bug Fixes**: Resolved AttributeError, TypeError, and JSON parsing issues
 - **Modern UI**: Beautiful gradient background and improved user experience
@@ -37,7 +37,7 @@ The conversion algorithm is **still a work in progress** and needs significant i
 
 3. **Pattern Recognition Gaps**:
    - Analysis found 150M+ potential data chunks (in test file) but only extracted partial geometry
-   - Common patterns like 'aaaaaaaa', 'bbbbbbbb' suggest structured data missing from analysis
+   - Common patterns found in sample .cly file analysed, like 'aaaaaaaa', 'bbbbbbbb' suggest structured data missing from analysis
    - Need better algorithms to identify and parse mesh data sections
 
 4. **Validation Needed**:
