@@ -1,6 +1,6 @@
 # CLY to STL Converter
 
-A web-based converter for FreeForm Workspace (.cly) files to STL format for 3D printing. This project includes comprehensive file analysis tools and enhanced parsing strategies for attempting to breakdown and export the .cly format.
+A work-in-progress web-based converter for FreeForm Workspace (.cly) files to STL format for 3D printing. This project currently includes basic file analysis tool logic and parsing strategies for attempting to breakdown and export the .cly format.
 
 ## Features
 
